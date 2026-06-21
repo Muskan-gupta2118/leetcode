@@ -13,4 +13,4 @@ n = 16
 result = isPowerOfTwo(n)
 
 # Output
-print("Output:", result)
+print("Output :", result)
