@@ -22,6 +22,6 @@ numRows = 5
 result = generate(numRows)
 
 # Output
-print("Pascal's Triangle:")
+print("Pascal's Triangle :")
 for row in result:
     print(row)
