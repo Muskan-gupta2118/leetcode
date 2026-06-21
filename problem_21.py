@@ -21,4 +21,4 @@ rowIndex = 4
 result = getRow(rowIndex)
 
 # Output
-print("Output:", result)
+print("Output :", result)
