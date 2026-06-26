@@ -17,4 +17,4 @@ s = "A man, a plan, a canal: Panama"
 result = isPalindrome(s)
 
 # Output
-print("Output :", result)
+print("Output:", result)
