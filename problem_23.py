@@ -7,7 +7,7 @@ class Book:
         self.available = True
 
     def __str__(self):
-        status = "Available" if self.available else "Borrowed"
+        status = "Available " if self.available else "Borrowed"
         return f"{self.book_id} | {self.title} | {self.author} | {status}"
 
 
