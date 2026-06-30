@@ -126,7 +126,7 @@ while True:
             print("Invalid Food ID.")
 
     elif choice == 3:
-        food_id = int(input("Enter Food ID to Remove: "))
+        food_id = int(input("Enter Food ID to Remove : "))
         customer.remove_from_cart(food_id)
 
     elif choice == 4:
