@@ -42,7 +42,7 @@ class Knight(Piece):
 
 class Pawn(Piece):
     def symbol(self):
-        return "♙" if self.color == "White" else "♟"
+        return "♙" if self.color == "White " else "♟"
 
 
 # ---------- Player ----------
