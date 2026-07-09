@@ -19,7 +19,7 @@ class Restaurant:
         self.menu.append(food)
 
     def show_menu(self):
-        print(f"\n----- {self.name} Menu -----")
+        print(f"\n {self.name} Menu ")
         for item in self.menu:
             item.display()
 
