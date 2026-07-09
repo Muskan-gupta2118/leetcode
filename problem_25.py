@@ -134,7 +134,7 @@ class ChessGame:
         self.player1 = Player("Player 1", "White")
         self.player2 = Player("Player 2", "Black")
 
-        self.turn = "White"
+        self.turn = "White "
 
     def play(self):
 
