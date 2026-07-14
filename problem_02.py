@@ -5,5 +5,5 @@ class solution(object):
             return False
         return str(x)==str(x)[::-1];
 obj=solution();
-x=int(input("Enter number : "))
-print(obj.isPalindrome(x))
+x=int(input("Enter number is : "))
+print(obj.isPalindrome) 
