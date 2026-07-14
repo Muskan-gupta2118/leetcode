@@ -5,9 +5,7 @@ class Solution(object):
             'L': 50, 'C': 100,
             'D': 500, 'M': 1000
         }
-        
         total = 0
-        
         for i in range(len(s)):
             # If current is smaller than next → subtract
             if i < len(s) - 1 and roman[s[i]] < roman[s[i + 1]]:
@@ -17,5 +15,5 @@ class Solution(object):
         
         return total;
 obj = Solution()
-s = input("Enter Roman number: ")
+s = input("Enter Roman number is : ")
 print(obj.romanToInt(s))
