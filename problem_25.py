@@ -10,7 +10,7 @@ class Piece:
         return "?"
 
     def move(self, start, end):
-        print(f"{self.symbol()} moves from {start} to {end}")
+        print(f"{self.symbol()} moves from {start} to the {end}")
 
 
 # ---------- Individual Pieces ----------
