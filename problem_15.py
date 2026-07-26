@@ -23,7 +23,7 @@ def printList(head):
     while head:
         print(head.val, end=" -> ")
         head = head.next
-    print("None")
+    print("Nothing")
 
 
 # Creating example linked list: 1 -> 1 -> 2 -> 3 -> 3
