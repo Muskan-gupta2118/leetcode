@@ -21,12 +21,12 @@ def merge(nums1, m, nums2, n):
 
 
 # Example input
-nums1 = [1, 2, 3, 0, 0, 0]
+nums1 = [1, 2, 3, 0, 1, 0]
 m = 3
 nums2 = [2, 5, 6]
 n = 3
 
-print("Before Merge:", nums1)
+print("Before Merge :", nums1)
 
 merge(nums1, m, nums2, n)
 
